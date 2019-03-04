@@ -8,6 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		C221370C1FDEF3EC00BAEFBD /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = C221370B1FDEF3EC00BAEFBD /* main.cpp */; };
+		C22137141FDEF46D00BAEFBD /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22137131FDEF46D00BAEFBD /* OpenGL.framework */; };
+		C22137161FDEF47300BAEFBD /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22137151FDEF47300BAEFBD /* GLUT.framework */; };
+		C22137181FDEF47B00BAEFBD /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C22137171FDEF47B00BAEFBD /* GLKit.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +28,9 @@
 /* Begin PBXFileReference section */
 		C22137081FDEF3EC00BAEFBD /* graPro */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = graPro; sourceTree = BUILT_PRODUCTS_DIR; };
 		C221370B1FDEF3EC00BAEFBD /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		C22137131FDEF46D00BAEFBD /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		C22137151FDEF47300BAEFBD /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
+		C22137171FDEF47B00BAEFBD /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -32,6 +38,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C22137181FDEF47B00BAEFBD /* GLKit.framework in Frameworks */,
+				C22137161FDEF47300BAEFBD /* GLUT.framework in Frameworks */,
+				C22137141FDEF46D00BAEFBD /* OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -43,6 +52,7 @@
 			children = (
 				C221370A1FDEF3EC00BAEFBD /* graPro */,
 				C22137091FDEF3EC00BAEFBD /* Products */,
+				C22137121FDEF46D00BAEFBD /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -60,6 +70,16 @@
 				C221370B1FDEF3EC00BAEFBD /* main.cpp */,
 			);
 			path = graPro;
+			sourceTree = "<group>";
+		};
+		C22137121FDEF46D00BAEFBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C22137171FDEF47B00BAEFBD /* GLKit.framework */,
+				C22137151FDEF47300BAEFBD /* GLUT.framework */,
+				C22137131FDEF46D00BAEFBD /* OpenGL.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
